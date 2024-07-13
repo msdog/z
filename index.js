@@ -54,7 +54,7 @@ const App = {
     audioBgm.loop = this.audio.loop = true
 
     let list = [
-      { src: './assets/pano/UNC Gate.jpg', introMusic: './assets/audio/UNC Gate.mp3' },
+      { src: './assets/pano/UNC Gate.jpg', introMusic: './assets/audio/UNCGate.mp3' },
       { src: './assets/pano/Woolen Gym.jpg', introMusic: './assets/audio/Woolen Gym.mp3' },
       { src: './assets/pano/Recreation Center.jpg', introMusic: './assets/audio/res.mp3' },
       { src: './assets/pano/Pit.jpg', introMusic: '' },
