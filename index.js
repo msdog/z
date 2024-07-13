@@ -54,28 +54,28 @@ const App = {
     audioBgm.loop = this.audio.loop = true
 
     let list = [
-      { src: './assets/pano/UNC Gate.jpg', introMusic: './assets/audio/UNCGate.mp3' },
-      { src: './assets/pano/Woolen Gym.jpg', introMusic: './assets/audio/Woolen Gym.mp3' },
-      { src: './assets/pano/Recreation Center.jpg', introMusic: './assets/audio/res.mp3' },
+      { src: './assets/pano/UNC_Gate.jpg', introMusic: './assets/audio/UNCGate.mp3' },
+      { src: './assets/pano/Woolen_Gym.jpg', introMusic: './assets/audio/Woolen Gym.mp3' },
+      { src: './assets/pano/Recreation_Center.jpg', introMusic: './assets/audio/res.mp3' },
       { src: './assets/pano/Pit.jpg', introMusic: '' },
 
-      { src: './assets/pano/Student Store Third Floor.jpg', introMusic: './assets/audio/Student Store Third Floor.mp3' },
-      { src: './assets/pano/Student Union first floor.jpg', introMusic: '' },
+      { src: './assets/pano/Student_Store_Third_Floor.jpg', introMusic: './assets/audio/Student Store Third Floor.mp3' },
+      { src: './assets/pano/Student_Union_first_floor.jpg', introMusic: '' },
       { src: './assets/pano/Student_union_Second_floor.jpg', introMusic: './assets/audio/Student union Second floor.mp3' },
 
-      { src: './assets/pano/Davis Library.jpg', introMusic: './assets/audio/Davis Library.mp3' },
-      { src: './assets/pano/Polk Place & Wilson Library.jpg', introMusic: './assets/audio/Polk Place & Wilson Library.mp3' },
+      { src: './assets/pano/Davis_Library.jpg', introMusic: './assets/audio/Davis Library.mp3' },
+      { src: './assets/pano/Polk_Place_Wilson_Library.jpg', introMusic: './assets/audio/Polk Place & Wilson Library.mp3' },
 
-      { src: './assets/pano/Peabody hall .jpg', introMusic: './assets/audio/Peabody hall .mp3' },
-      { src: './assets/pano/Peabody inside.jpg', introMusic: './assets/audio/Peabody hall .mp3' },
+      { src: './assets/pano/Peabody_hall.jpg', introMusic: './assets/audio/Peabody hall .mp3' },
+      { src: './assets/pano/Peabody_inside.jpg', introMusic: './assets/audio/Peabody hall .mp3' },
 
-      { src: './assets/pano/Undergraduate Dorm.jpg', introMusic: '' },
-      { src: './assets/pano/Undergraduate Library.jpg', introMusic: './assets/audio/Undergraduate Library.mp3' },
+      { src: './assets/pano/Undergraduate_Dorm.jpg', introMusic: '' },
+      { src: './assets/pano/Undergraduate_Library.jpg', introMusic: './assets/audio/Undergraduate Library.mp3' },
 
-      { src: './assets/pano/Old Well& Street Scene.jpg', introMusic: '' },
+      { src: './assets/pano/Old_Well_Street_Scene.jpg', introMusic: '' },
 
-      { src: './assets/pano/Classroom1 .jpg', introMusic: './assets/audio/classroom.mp3' },
-      { src: './assets/pano/Classroom 2.jpg', introMusic: './assets/audio/classroom.mp3' },
+      { src: './assets/pano/Classroom1.jpg', introMusic: './assets/audio/classroom.mp3' },
+      { src: './assets/pano/Classroom2.jpg', introMusic: './assets/audio/classroom.mp3' },
 
     ]
     let idx = 0
