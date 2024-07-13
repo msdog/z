@@ -19,7 +19,7 @@ const App = {
         <div class='swiper-slide' v-for="(item, idx) in list" :key="item.src" @click='change(idx)'>
           <img :src="item.iconSrc"  v-show="item.iconSrc"/>
           <div class='title'>
-            {{item.src.split('/').pop().split('.')[0]}}
+            {{item.src.split('/').pop().split('.')[0].replace(/_/g, ' ')}}
           </div>
         </div>
 
@@ -32,7 +32,7 @@ const App = {
       <img src="./assets/Logo.jpeg" />
     </div>
     <div class='name' v-if='currScene'>
-        {{currScene.src.split('/').pop().split('.')[0]}}
+        {{currScene.src.split('/').pop().split('.')[0].replace(/_/g, ' ')}}
     </div>
 
     <div class='options'>
@@ -61,7 +61,7 @@ const App = {
 
       { src: './assets/pano/Student Store Third Floor.jpg', introMusic: './assets/audio/Student Store Third Floor.mp3' },
       { src: './assets/pano/Student Union first floor.jpg', introMusic: '' },
-      { src: './assets/pano/Student union Second floor.jpg', introMusic: './assets/audio/Student union Second floor.mp3' },
+      { src: './assets/pano/Student_union_Second_floor.jpg', introMusic: './assets/audio/Student union Second floor.mp3' },
 
       { src: './assets/pano/Davis Library.jpg', introMusic: './assets/audio/Davis Library.mp3' },
       { src: './assets/pano/Polk Place & Wilson Library.jpg', introMusic: './assets/audio/Polk Place & Wilson Library.mp3' },
